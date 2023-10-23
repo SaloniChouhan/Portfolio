@@ -7,7 +7,7 @@ import Resume from "../assets/Saloni_Chouhan_CV.pdf";
 const NavBar = () => {
   return (
     <>
-      <nav className="container flex pt-6 px-6 top-0 mt-2 lg:mt-1 sm:px-8 lg:px-12 mx-auto items-center relative bg-darkest-green ">
+      <nav className="container flex pt-6 px-6 top-0 mt-2 sm:px-6 md:px-10 mx-auto items-center relative bg-darkest-green lg:max-w-7xl">
         <div className=" flex mx-auto items-center justify-between  w-full  ">
           <h1 className="font-serif text-base md:text-lg lg:text-xl font-medium  text-core-green-300">
             <span className="float-left">
@@ -53,7 +53,7 @@ const NavBar = () => {
               leaveTo="opacity-0"
             >
               <Popover.Panel className="absolute z-10 ">
-                <div className="fixed grid inset-x-4 top-7 z-50 origin-top rounded-3xl p-8 ring-1 ring-core-green-800 bg-slate-50  opacity-100 scale-100">
+                <div className="fixed grid inset-x-4 top-7 z-50 origin-top rounded-3xl p-8 ring-1 ring-core-green-800 bg-darker-green  opacity-100 scale-100">
                   {" "}
                   <div className="flex flex-row justify-between">
                     <h6 className="inline-block text-core-green-400 font-mono text-sm">
