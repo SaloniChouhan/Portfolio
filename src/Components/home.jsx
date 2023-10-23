@@ -5,10 +5,6 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <Techstack />
-      <Work />
-      <Projects />
-      <Contact />
     </>
   );
 };

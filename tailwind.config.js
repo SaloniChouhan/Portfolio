@@ -24,6 +24,7 @@ export default {
     fontFamily: {
       sans: ["Raleway", "sans-serif"],
       mono: ["Montserrat", "sans-serif"],
+      serif: ["Sometype Mono", "sans-serif"],
     },
     extend: {},
   },
