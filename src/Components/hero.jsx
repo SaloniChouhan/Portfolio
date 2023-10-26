@@ -13,10 +13,12 @@ const Hero = () => {
           </h1>
           <div className="max-w-2xl">
             <h2 className="font-mono font-light text-core-green-100 text-lg mt-12">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-              ipsum, dolor sit amet consectetur adipisicing elit. Magni natus
-              officiis numquam iure quos, tenetur assumenda dolorem laborum
-              explicabo dignissimos doloremque aspernatur qui
+              Welcome to my digital realm, where I craft code into elegant
+              solutions! I am a{" "}
+              <span className="font-semibold">Software Engineer</span> and{" "}
+              <span className="font-semibold">Front-end Developer</span> based
+              in Indore {"("} India {")"} with a drive for transforming abstract
+              ideas into tangible, user-friendly experiences.
             </h2>
           </div>
         </div>
@@ -57,7 +59,7 @@ const Hero = () => {
             <a
               className="group -m-1 p-1"
               aria-label="Follow on GitHub"
-              href="https://github.com/subodhGalande"
+              href="https://github.com/SaloniChouhan"
             >
               <svg
                 viewBox="0 0 24 24"
@@ -74,7 +76,7 @@ const Hero = () => {
             <a
               className="group -m-1 p-1"
               aria-label="Follow on LinkedIn"
-              href="https://www.linkedin.com/in/subodh-galande/"
+              href="https://www.linkedin.com/in/saloni-chouhan-55b219192/"
             >
               <svg
                 viewBox="0 0 24 24"
