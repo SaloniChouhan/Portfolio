@@ -9,12 +9,12 @@ const Hero = () => {
             <p className="lg:text-lg text-sm my-1 font-serif font-regular text-core-green-600 ">
               Hi, My name is
             </p>
-            <h1 className="text-4xl lg:text-7xl my-4 font-mono font-bold text-core-green-100 max-w-3xl ">
+            <h1 className="text-4xl lg:text-7xl mt-2 font-mono font-bold text-core-green-100 max-w-3xl ">
               Saloni Chouhan
             </h1>
           </div>
           <div className="max-w-2xl">
-            <h2 className="font-mono font-light text-core-green-100 text-md mt-8">
+            <h2 className="font-mono font-light text-core-green-200/70 text-md mt-8">
               Welcome to my digital realm, where I craft code into elegant
               solutions! I am a{" "}
               <span className="font-semibold">Software Engineer</span> and{" "}
