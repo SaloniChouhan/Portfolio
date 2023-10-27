@@ -4,17 +4,27 @@ import {
   BiLogoJavascript,
   BiLogoReact,
   BiLogoTailwindCss,
+  BiLogoNetlify,
 } from "react-icons/bi";
 import { IoLogoIonic } from "react-icons/io";
-import { SiBulma, SiPhp } from "react-icons/si";
+import {
+  SiBulma,
+  SiPhp,
+  SiAdobeillustrator,
+  SiGithub,
+  SiVisualstudiocode,
+  SiVite,
+  SiGit,
+  SiAdobexd,
+} from "react-icons/si";
 
 const Techstack = () => {
   return (
     <>
-      <div className=" bg-core-green-300 py-1 mt-12 px-6 sm:px-6 md:px-10 w-screen">
-        <div className="lg:max-w-7xl">
-          <h1 className="text-dark-green text-3xl font-extrabold text-center font-mono py-8 mt-12 px-6 sm:px-6 md:px-10 lg:max-w-7xl">
-            Crafting digital experiences with...
+      <div className=" bg-core-green-300 py-1 mt-12 px-6 sm:px-6 md:px-10 w-screen h-full">
+        <div className="mx-auto max-w-7xl">
+          <h1 className="text-dark-green text-3xl font-extrabold text-center font-mono py-8 mt-12 px-6 sm:px-6 md:px-10 sm:text-3xl md:text-4xl lg:text-5xl lg:max-w-7xl">
+            My Digital Toolbox
           </h1>
           <ul className="flex flex-wrap mt-8 mb-8 text-center text-base font-medium justify-center  gap-2  align-center ">
             <li className=" ">
@@ -90,6 +100,68 @@ const Techstack = () => {
               </span>
             </li>
           </ul>
+        </div>
+        <div className="mx-auto max-w-7xl">
+          <ul className="flex flex-wrap mt-8 mb-8 text-center text-base font-medium justify-center  gap-2  align-center ">
+            <li className=" ">
+              <span className="flex bg-darkest-green px-3 py-2 rounded-lg space-x-1">
+                <SiAdobeillustrator className="text-core-green-200 inline-block h-6 w-6  " />{" "}
+                <p className="inline-block text-core-green-200 mx-auto font-mono">
+                  Adobe Illustrator
+                </p>
+              </span>
+            </li>
+            <li className=" ">
+              <span className="flex bg-darkest-green px-3 py-2 rounded-lg space-x-1">
+                <SiAdobexd className="text-core-green-200 inline-block h-6 w-6  " />{" "}
+                <p className="inline-block text-core-green-200 mx-auto font-mono">
+                  Adobe XD
+                </p>
+              </span>
+            </li>
+            <li className=" ">
+              <span className="flex content-baseline bg-darkest-green px-3 py-2 rounded-lg space-x-1">
+                <SiVisualstudiocode className="text-core-green-200 inline-block h-6 w-6  " />{" "}
+                <p className="inline-block text-core-green-200  font-mono">
+                  Visual Studio Code
+                </p>
+              </span>
+            </li>
+            <li className=" ">
+              <span className="flex bg-darkest-green px-3 py-2 rounded-lg space-x-1">
+                <SiGithub className="text-core-green-200 inline-block h-6 w-6  " />{" "}
+                <p className="inline-block text-core-green-200  font-mono">
+                  GitHub
+                </p>
+              </span>
+            </li>
+
+            <li className=" ">
+              <span className="flex content-baseline bg-darkest-green px-3 py-2 rounded-lg space-x-1">
+                <BiLogoNetlify className="text-core-green-200 inline-block h-6 w-6  " />{" "}
+                <p className="inline-block text-core-green-200  font-mono">
+                  Netlify
+                </p>
+              </span>
+            </li>
+            <li className=" ">
+              <span className="flex content-baseline bg-darkest-green px-3 py-2 rounded-lg space-x-1">
+                <SiVite className="text-core-green-200 inline-block h-6 w-6  " />{" "}
+                <p className="inline-block text-core-green-200  font-mono">
+                  Vite
+                </p>
+              </span>
+            </li>
+            <li className=" ">
+              <span className="flex content-baseline bg-darkest-green px-3 py-2 rounded-lg space-x-1">
+                <SiGit className="text-core-green-200 inline-block h-6 w-6  " />{" "}
+                <p className="inline-block text-core-green-200  font-mono">
+                  Git
+                </p>
+              </span>
+            </li>
+          </ul>
+          <br />
           <br />
         </div>
       </div>

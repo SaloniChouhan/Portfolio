@@ -3,9 +3,9 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="container flex flex-col  md:text-left text-left  h-full mx-auto py-8 mt-12 px-6 sm:px-6 md:px-10 lg:max-w-7xl">
+      <div className="container flex flex-col  md:text-left text-left  h-full mx-auto py-12 mt-16 px-6 sm:px-6 md:px-10 lg:max-w-7xl">
         <div className="lg:mt-0 ">
-          <p className="lg:text-lg text-lg my-2 font-serif font-regular text-core-green-600">
+          <p className="lg:text-lg text-lg my-1 font-serif font-regular text-core-green-600">
             Hi, My name is
           </p>
           <h1 className="text-5xl lg:text-7xl my-6 font-mono font-bold text-core-green-100 max-w-3xl ">
