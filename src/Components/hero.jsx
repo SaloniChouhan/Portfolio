@@ -6,15 +6,15 @@ const Hero = () => {
       <div className="container flex flex-col  md:text-left text-center   mx-auto  px-6   sm:px-6 md:px-10 lg:max-w-7xl ">
         <div className="lg:mt-0 flex flex-col content-center h-screen justify-center ">
           <div>
-            <p className="lg:text-lg text-lg my-1 font-serif font-regular text-core-green-600">
+            <p className="lg:text-lg text-sm my-1 font-serif font-regular text-core-green-600 ">
               Hi, My name is
             </p>
-            <h1 className="text-4xl lg:text-7xl my-6 font-mono font-bold text-core-green-100 max-w-3xl ">
+            <h1 className="text-4xl lg:text-7xl my-4 font-mono font-bold text-core-green-100 max-w-3xl ">
               Saloni Chouhan
             </h1>
           </div>
           <div className="max-w-2xl">
-            <h2 className="font-mono font-light text-core-green-100 text-lg mt-12">
+            <h2 className="font-mono font-light text-core-green-100 text-md mt-8">
               Welcome to my digital realm, where I craft code into elegant
               solutions! I am a{" "}
               <span className="font-semibold">Software Engineer</span> and{" "}
