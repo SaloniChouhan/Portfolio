@@ -7,11 +7,11 @@ import Resume from "../assets/Saloni_Chouhan_CV.pdf";
 const NavBar = () => {
   return (
     <>
-      <nav className="container flex pt-6 px-6 top-0 mt-2 sm:px-6 md:px-10 mx-auto items-center absolute bg-darkest-green lg:max-w-7xl">
+      <nav className="container flex pt-6 px-6 top-0 mt-2 sm:px-6 md:px-10 mx-auto items-center absolute sm:relative bg-darkest-green lg:max-w-7xl">
         <div className=" flex mx-auto items-center justify-between  w-full  ">
-          <h1 className="font-serif text-base md:text-lg lg:text-xl font-medium  text-core-green-300">
+          <h1 className="font-serif text-base md:text-lg lg:text-xl font-medium  text-core-green-200">
             <span className="float-left">
-              <p className="px-1 font-serif text-base md:text-lg lg:text-xl font-medium  text-core-green-300 animate-pulse">
+              <p className="px-1 font-serif text-base md:text-lg lg:text-xl font-medium  text-core-green-200 animate-pulse">
                 {"<"}
               </p>
             </span>
@@ -20,7 +20,7 @@ const NavBar = () => {
               {/* <p className="font-mono text-base md:text-lg lg:text-xl font-medium text-core-green-200 animate-pulse">
                 _
               </p> */}
-              <p className="px-0.5 font-serif text-base md:text-lg lg:text-xl font-medium text-core-green-300 animate-pulse">
+              <p className="px-0.5 font-serif text-base md:text-lg lg:text-xl font-medium text-core-green-200 animate-pulse">
                 {"/>"}
               </p>
             </span>
@@ -136,7 +136,7 @@ const NavBar = () => {
           <ul className="  hidden sm:flex space-x-7  text-base  ">
             <li className="py-1 px-1  ease-in-out duration-300 font-mono font-medium text-sm">
               <a
-                className="group text-core-green-300 hover:text-core-green-600 transition-all duration-300 ease-in-out"
+                className="group text-core-green-200 hover:text-core-green-600 transition-all duration-300 ease-in-out"
                 href="#work"
               >
                 <span className="py-2 bg-left-bottom bg-gradient-to-r from-core-green-300 to-core-green-300 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out ">
@@ -146,7 +146,7 @@ const NavBar = () => {
             </li>
             <li className="py-1 px-1  ease-in-out duration-300 font-mono font-medium text-sm">
               <a
-                className="group text-core-green-300 hover:text-core-green-600 transition-all duration-300 ease-in-out"
+                className="group text-core-green-200 hover:text-core-green-600 transition-all duration-300 ease-in-out"
                 href="#project"
               >
                 <span className="py-2 bg-left-bottom bg-gradient-to-r from-core-green-300 to-core-green-300 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
@@ -156,7 +156,7 @@ const NavBar = () => {
             </li>
             <li className="py-1 px-1  ease-in-out duration-300 font-mono font-medium text-sm">
               <a
-                className="group text-core-green-300 hover:text-core-green-600 transition-all duration-300 ease-in-out"
+                className="group text-core-green-200 hover:text-core-green-600 transition-all duration-300 ease-in-out"
                 href="#connect"
               >
                 <span className="py-2 bg-left-bottom bg-gradient-to-r from-core-green-300 to-core-green-300 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
@@ -166,7 +166,7 @@ const NavBar = () => {
             </li>
             <li className="py-1 px-1  ease-in-out duration-300 font-mono font-medium text-sm">
               <a
-                className="group text-core-green-300 hover:text-core-green-600 transition-all duration-300 ease-in-out"
+                className="group text-core-green-200 hover:text-core-green-600 transition-all duration-300 ease-in-out"
                 href={Resume}
                 download
               >
