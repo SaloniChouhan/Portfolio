@@ -10,7 +10,7 @@ const Work = () => {
         id="work"
         className="pt-20 mx-auto mt-20 px-6 sm:px-6 text-center md:px-10 max-w-7xl "
       >
-        <h1 className="lg:text-xl sm:text-2xl md:text-xl text-xl sm:px-6 md:px-10 text-core-green-600 font-mono font-light mx-auto lg:max-w-7xl text-center px-6">
+        <h1 className="lg:text-3xl sm:text-lg md:text-2xl text-lg sm:px-6 md:px-10 text-core-green-600 font-mono font-light mx-auto lg:max-w-7xl text-center px-6">
           Career Highlights
         </h1>
         <h1 className="lg:text-5xl sm:text-3xl md:text-4xl text-3xl sm:px-6 md:px-10 text-core-green-100 font-mono font-extrabold mx-auto lg:max-w-7xl max-w-4xl  py-4 mb-14 px-6 text-center">
@@ -25,9 +25,11 @@ const Work = () => {
             >
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-200/70 hover:bg-core-green-900 hover:text-core-green-100  focus:outline-none focus-visible:ring focus-visible:ring-darker-green-500/75 ring-1 ring-core-green-900 rounded-lg">
-                    <span className="">Software Engineer @Capgemini</span>
-                    <span className="flex justify-end">
+                  <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-200 hover:bg-core-green-900 hover:text-core-green-100  focus:outline-none focus-visible:ring focus-visible:ring-darker-green-500/75 ring-1 ring-core-green-900 rounded-lg">
+                    <span className="text-xs sm:text-xs md:text-sm lg:text-base">
+                      Software Engineer @Capgemini
+                    </span>
+                    <span className="flex justify-end text-xs sm:text-xs md:text-sm lg:text-base">
                       August 2022 - Present
                       <ChevronUpIcon
                         className={`${
@@ -47,10 +49,48 @@ const Work = () => {
                     <Disclosure.Panel className="px-4 pb-4 pt-4 text-sm text-core-green-600">
                       <span className="flex px-3 py-2  space-x-1">
                         <FaLocationDot className="text-core-green-200/70 inline-block h-4 w-4  " />{" "}
-                        <p className="inline-block text-core-green-200/70 mx-auto font-mono text-xs sm:text-sm md:text-sm ">
+                        <p className="inline-block text-core-green-200/70 mx-auto font-mono text-xs sm:text-sm md:text-xs ">
                           Mumbai, India
                         </p>
                       </span>
+                      <ul className="list-disc px-3 py-2  space-x-1 text-core-green-200">
+                        <li className="px-3 py-2 space-x-1">
+                          <p className="text-core-green-200 text-left md:text-sm">
+                            Collaborated with cross-functional teams, including
+                            UI/UX team, QA team, to ensure seamless integration
+                            of requested services.
+                          </p>
+                        </li>
+                        <li className="px-3 pb-1  space-x-1">
+                          <p className="text-core-green-200 text-left md:text-sm">
+                            Participated in agile/scrum methodologies,
+                            contributing to sprint planning, daily stand-ups,
+                            and retrospectives.
+                          </p>
+                        </li>
+                      </ul>
+                      <ul className="flex flex-wrap mt-4 mb-4 text-base font-medium justify-start  gap-1 align-left">
+                        <li>
+                          <p className="flex text-core-green-200/70 mx-auto font-serif px-3 md:text-xs ">
+                            HTML5
+                          </p>
+                        </li>
+                        <li>
+                          <p className="flex text-core-green-200/70 md:text-xs mx-auto font-serif px-3">
+                            CSS3
+                          </p>
+                        </li>
+                        <li>
+                          <p className="flex text-core-green-200/70 mx-auto md:text-xs font-serif px-3">
+                            React JS
+                          </p>
+                        </li>
+                        <li>
+                          <p className="flex text-core-green-200/70 mx-auto md:text-xs font-serif px-3">
+                            Tailwind CSS
+                          </p>
+                        </li>
+                      </ul>
                     </Disclosure.Panel>
                   </Transition>
                 </>
@@ -62,9 +102,11 @@ const Work = () => {
             >
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-200/70 hover:bg-core-green-900 hover:text-core-green-100 focus:outline-none focus-visible:ring focus-visible:ring-darker-green-500/75 ring-1 ring-core-green-900 rounded-lg">
-                    <span className="">Java Trainee Intern @Amstech Inc.</span>
-                    <span className="flex justify-end">
+                  <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-200 hover:bg-core-green-900 hover:text-core-green-100 focus:outline-none focus-visible:ring focus-visible:ring-darker-green-500/75 ring-1 ring-core-green-900 rounded-lg">
+                    <span className="text-xs sm:text-xs md:text-sm lg:text-base">
+                      Java Trainee Intern @Amstech Inc.
+                    </span>
+                    <span className="flex justify-end text-xs sm:text-xs md:text-sm lg:text-base">
                       October - October 2019
                       <ChevronUpIcon
                         className={`${
