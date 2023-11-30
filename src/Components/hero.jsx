@@ -36,7 +36,7 @@ const Hero = () => {
                 >
                   <svg
                     id="Layer_1"
-                    className="h-6 w-6 lg:h-9 lg:w-9 fill-core-green-200/70 hover:fill-core-green-700"
+                    className="h-6 w-5 lg:h-9 lg:w-9 fill-core-green-200/70 hover:fill-core-green-700"
                     data-name="Layer 1"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 256 368.73"
