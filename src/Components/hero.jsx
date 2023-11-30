@@ -14,7 +14,7 @@ const Hero = () => {
             </h1>
           </div>
           <div className="max-w-2xl">
-            <h2 className="font-mono font-normal text-core-green-200/70 text-md mt-8">
+            <h2 className="font-mono font-normal text-core-green-200/70 text-md mt-8 ">
               Welcome to my digital realm, where I craft code into elegant
               solutions! I am a{" "}
               <span className="font-semibold text-core-green-200">

@@ -26,11 +26,11 @@ const Work = () => {
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-100 hover:bg-core-green-900 hover:text-core-green-100  focus:outline-none focus-visible:ring focus-visible:ring-darker-green-500/75 ring-1 ring-core-green-900 rounded-lg">
-                    <span className="text-xs sm:text-sm md:text-sm lg:text-base font-medium">
+                    <span className="text-md sm:text-md md:text-base lg:text-lg font-medium">
                       Software Engineer{" "}
                       <span className="text-core-green-600">@Capgemini</span>
                     </span>
-                    <span className="flex justify-end text-xs sm:text-sm md:text-sm lg:text-base font-medium">
+                    <span className="flex justify-end text-md sm:text-md md:text-base lg:text-lg font-medium">
                       August 2022 - Present
                       <ChevronUpIcon
                         className={`${
@@ -72,22 +72,22 @@ const Work = () => {
                       </ul>
                       <ul className="flex flex-wrap mt-4 mb-4 text-base font-light justify-start  gap-1 align-left">
                         <li>
-                          <p className="flex text-core-green-200/70 mx-auto font-serif sm:text-xs md:text-xs px-3  ">
+                          <p className="flex text-core-green-200/70 mx-auto font-serif text-sm sm:text-sm md:text-md px-3  ">
                             HTML5
                           </p>
                         </li>
                         <li>
-                          <p className="flex text-core-green-200/70 sm:text-xs md:text-xs mx-auto font-serif px-3 ">
+                          <p className="flex text-core-green-200/70 text-sm sm:text-sm md:text-md mx-auto font-serif px-3 ">
                             CSS3
                           </p>
                         </li>
                         <li>
-                          <p className="flex text-core-green-200/70 mx-auto sm:text-xs md:text-xs font-serif px-3 ">
+                          <p className="flex text-core-green-200/70 mx-auto text-sm sm:text-sm md:text-md font-serif px-3 ">
                             React JS
                           </p>
                         </li>
                         <li>
-                          <p className="flex text-core-green-200/70 mx-auto sm:text-xs md:text-xs font-serif px-3">
+                          <p className="flex text-core-green-200/70 mx-auto text-sm sm:text-sm md:text-md font-serif px-3">
                             Tailwind CSS
                           </p>
                         </li>
@@ -104,11 +104,11 @@ const Work = () => {
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-100 hover:bg-core-green-900 hover:text-core-green-100 focus:outline-none focus-visible:ring focus-visible:ring-darker-green-500/75 ring-1 ring-core-green-900 rounded-lg">
-                    <span className="text-xs sm:text-sm md:text-sm lg:text-base font-medium">
+                    <span className="text-md sm:text-md md:text-base lg:text-lg font-medium">
                       Java Trainee Intern{" "}
                       <span className="text-core-green-600">@Amstech Inc.</span>
                     </span>
-                    <span className="flex justify-end text-xs sm:text-sm md:text-sm lg:text-base font-medium">
+                    <span className="flex justify-end text-md sm:text-md md:text-base lg:text-lg font-medium">
                       October - October 2019
                       <ChevronUpIcon
                         className={`${
@@ -151,12 +151,12 @@ const Work = () => {
                       </ul>
                       <ul className="flex flex-wrap mt-4 mb-4 text-base font-light justify-start  gap-1 align-left">
                         <li>
-                          <p className="flex text-core-green-200/70 mx-auto font-serif sm:text-xs md:text-xs px-3  ">
+                          <p className="flex text-core-green-200/70 mx-auto font-serif text-sm sm:text-sm md:text-md px-3  ">
                             Java
                           </p>
                         </li>
                         <li>
-                          <p className="flex text-core-green-200/70 sm:text-xs md:text-xs mx-auto font-serif px-3 ">
+                          <p className="flex text-core-green-200/70 text-sm sm:text-sm md:text-md mx-auto font-serif px-3 ">
                             Git
                           </p>
                         </li>

@@ -56,7 +56,7 @@ const NavBar = () => {
                 <div className="fixed grid inset-x-4 top-7 z-50 origin-top rounded-3xl p-8 ring-1 ring-core-green-900  bg-core-green-900/40  opacity-100 scale-100">
                   {" "}
                   <div className="flex flex-row justify-between">
-                    <h6 className="inline-block text-core-green-400 font-mono text-sm">
+                    <h6 className="inline-block text-core-green-600 font-mono text-sm">
                       Menu
                     </h6>
                     <Popover.Button
