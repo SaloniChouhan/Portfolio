@@ -56,7 +56,7 @@ const NavBar = () => {
                 <div className="fixed grid inset-x-4 top-7 z-50 origin-top rounded-3xl p-8 ring-1 ring-core-green-900  bg-core-green-900/40  opacity-100 scale-100">
                   {" "}
                   <div className="flex flex-row justify-between">
-                    <h6 className="inline-block text-core-green-600 font-mono text-sm">
+                    <h6 className="inline-block text-core-green-600 font-mono text-xs">
                       Menu
                     </h6>
                     <Popover.Button
@@ -74,7 +74,7 @@ const NavBar = () => {
                       />
                     </Popover.Button>
                   </div>
-                  <ul className=" mt-4 divide-y divide-core-green-900/80 font-mono text-base font-normal text-core-green-200 ">
+                  <ul className=" mt-4 divide-y divide-core-green-900/80 font-mono text-sm font-normal text-core-green-200 ">
                     <li className="text-left">
                       {" "}
                       <a href="#work">
