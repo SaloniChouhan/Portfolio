@@ -21,11 +21,11 @@ const Work = () => {
           <div className="mx-auto w-full max-w-3xl  p-2">
             <Disclosure
               as="div"
-              className=" ring-1 ring-core-green-900 rounded-lg "
+              className=" ring-1 ring-core-green-900 divide-y divide-core-green-900/80 rounded-lg "
             >
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-100 hover:bg-core-green-900 hover:text-core-green-100  focus:outline-none focus-visible:ring focus-visible:ring-darker-green-500/75 ring-1 ring-core-green-900 rounded-lg">
+                  <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-100 hover:bg-core-green-900/40 rounded-lg ">
                     <span className="text-md sm:text-md md:text-base lg:text-lg font-medium">
                       Software Engineer{" "}
                       <span className="text-core-green-600">@Capgemini</span>
@@ -83,12 +83,12 @@ const Work = () => {
                         </li>
                         <li>
                           <p className="flex text-core-green-200/70 mx-auto text-xs sm:text-xs md:text-sm font-serif px-3 ">
-                            React JS
+                            ReactJS
                           </p>
                         </li>
                         <li>
                           <p className="flex text-core-green-200/70 mx-auto text-xs sm:text-xs md:text-sm font-serif px-3">
-                            Tailwind CSS
+                            TailwindCSS
                           </p>
                         </li>
                       </ul>
@@ -99,11 +99,11 @@ const Work = () => {
             </Disclosure>
             <Disclosure
               as="div"
-              className="mt-4  ring-1 ring-core-green-900 rounded-lg focus:scroll-auto"
+              className="mt-4  ring-1 ring-core-green-900 divide-y divide-core-green-900/80 rounded-lg focus:scroll-auto"
             >
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-100 hover:bg-core-green-900 hover:text-core-green-100 focus:outline-none focus-visible:ring focus-visible:ring-darker-green-500/75 ring-1 ring-core-green-900 rounded-lg">
+                  <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-100 hover:bg-core-green-900/40 rounded-lg">
                     <span className="text-md sm:text-md md:text-base lg:text-lg font-medium">
                       Java Trainee Intern{" "}
                       <span className="text-core-green-600">@Amstech Inc.</span>

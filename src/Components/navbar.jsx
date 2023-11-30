@@ -53,7 +53,7 @@ const NavBar = () => {
               leaveTo="opacity-0"
             >
               <Popover.Panel className="absolute z-10 ">
-                <div className="fixed grid inset-x-4 top-7 z-50 origin-top rounded-3xl p-8 ring-1 ring-core-green-900  bg-core-green-900/40  opacity-100 scale-100">
+                <div className="fixed grid inset-x-4 top-7 z-50 origin-top rounded-3xl p-8 ring-1 ring-core-green-900  bg-core-green-900/50  opacity-100 scale-100">
                   {" "}
                   <div className="flex flex-row justify-between">
                     <h6 className="inline-block text-core-green-600 font-mono text-xs">
@@ -68,7 +68,7 @@ const NavBar = () => {
                     >
                       {" "}
                       <XMarkIcon
-                        className=" h-5 w-5 font-medium pl-1 text-core-green-400 inline-block "
+                        className=" h-5 w-5 font-medium pl-1 text-core-green-600 inline-block "
                         stroke="currentColor"
                         stroke-width="1"
                       />
