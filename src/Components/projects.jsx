@@ -16,10 +16,7 @@ const Projects = () => {
         </p>
         <div className="mx-auto w-full py-12">
           <div className="mx-auto w-full max-w-3xl p-2 ">
-            <Disclosure
-              as="div"
-              className=" ring-1   rounded-lg bg-darkest-green"
-            >
+            <Disclosure as="div" className="   rounded-lg bg-darkest-green">
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex mx-auto w-full justify-between flex-row text-left overflow-hidden max-w-3xl px-4 py-2 text-sm font-medium text-core-green-100 rounded-lg mt-12  max-h-32">
@@ -90,10 +87,7 @@ const Projects = () => {
                 </>
               )}
             </Disclosure>
-            <Disclosure
-              as="div"
-              className="mt-2 ring-1 rounded-lg bg-darkest-green"
-            >
+            <Disclosure as="div" className="mt-2  rounded-lg bg-darkest-green">
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex mx-auto w-full justify-between flex-row text-left overflow-hidden max-w-3xl px-4 py-2 text-sm font-medium text-core-green-100 rounded-lg mt-12  max-h-32">
