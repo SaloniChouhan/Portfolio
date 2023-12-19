@@ -8,9 +8,9 @@ const Work = () => {
     <>
       <div
         id="work"
-        className="pt-20 mx-auto mt-20 px-6 sm:px-6 text-center md:px-10 max-w-7xl "
+        className="pt-20 mx-auto mt-20 px-6 sm:px-6 md:px-10 text-center  max-w-7xl "
       >
-        <h1 className="lg:text-3xl sm:text-xl md:text-2xl text-xl sm:px-6 md:px-10 text-core-green-600 font-mono font-light mx-auto lg:max-w-7xl text-center px-6">
+        <h1 className="lg:text-2xl sm:text-xl md:text-2xl text-xl sm:px-6 md:px-10 text-core-green-600 font-mono font-light mx-auto lg:max-w-7xl text-center px-6">
           Career Highlights
         </h1>
         <h1 className="lg:text-5xl sm:text-4xl md:text-4xl text-3xl sm:px-6 md:px-10 text-core-green-100 font-mono font-extrabold mx-auto lg:max-w-7xl max-w-4xl  py-4 mb-14 px-6 text-center">
@@ -50,7 +50,7 @@ const Work = () => {
                     <Disclosure.Panel className="px-4 pb-4 pt-4 text-sm text-core-green-600">
                       <span className="flex px-1 py-2 items-center space-x-1">
                         <FaLocationDot className="text-core-green-200/70 inline-block h-3 w-3  " />{" "}
-                        <p className="inline-block text-core-green-200/70 mx-auto font-mono text-sm sm:text-sm md:text-md lg:text-base font-light">
+                        <p className="inline-block text-core-green-200/70 mx-auto font-mono text-xs sm:text-xs md:text-sm lg:text-md font-light">
                           Mumbai, India
                         </p>
                       </span>
@@ -128,7 +128,7 @@ const Work = () => {
                     <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-core-green-600">
                       <span className="flex px-1 py-2 items-center space-x-1">
                         <FaLocationDot className="text-core-green-200/70 inline-block h-3 w-3  " />{" "}
-                        <p className="inline-block text-core-green-200/70 mx-auto font-mono text-sm sm:text-sm md:text-md lg:text-base font-light">
+                        <p className="inline-block text-core-green-200/70 mx-auto font-mono text-xs sm:text-xs md:text-sm lg:text-md font-light">
                           Indore, India
                         </p>
                       </span>

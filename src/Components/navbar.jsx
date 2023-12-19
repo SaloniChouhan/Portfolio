@@ -147,10 +147,10 @@ const NavBar = () => {
             <li className="py-1 px-1  ease-in-out duration-300 font-mono font-medium text-sm">
               <a
                 className="group text-core-green-200 hover:text-core-green-600 transition-all duration-300 ease-in-out"
-                href="#project"
+                href="#projects"
               >
                 <span className="py-2 bg-left-bottom bg-gradient-to-r from-core-green-300 to-core-green-300 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
-                  Project
+                  Projects
                 </span>
               </a>
             </li>
