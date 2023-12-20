@@ -22,18 +22,20 @@ const Projects = () => {
                   <Disclosure.Button className="flex mx-auto w-full justify-between flex-row text-left overflow-hidden max-w-3xl px-4 py-2 text-sm font-medium text-core-green-100 rounded-lg mt-12  max-h-32">
                     <div className="mt-5">
                       <span className="mx-auto max-w-xl">
-                        <h1 className="text-sm text-core-green-100">OneDesk</h1>
+                        <h1 className="text-base text-core-green-100 font-semibold">
+                          OneDesk
+                        </h1>
                         <h3 className="text-xs text-core-green-600">
                           Query resolution platform
                         </h3>
 
-                        <h3
+                        <button
                           className={`${
                             open ? "hidden" : ""
-                          }  text-core-green-600 text-xs mt-6`}
+                          }  text-dark-green bg-core-green-300 px-1 py-0.5 mx-auto  rounded-md text-xs mt-6`}
                         >
-                          Read more...
-                        </h3>
+                          Read more
+                        </button>
                       </span>
                     </div>
 
@@ -93,20 +95,20 @@ const Projects = () => {
                   <Disclosure.Button className="flex mx-auto w-full justify-between flex-row text-left overflow-hidden max-w-3xl px-4 py-2 text-sm font-medium text-core-green-100 rounded-lg mt-12  max-h-32">
                     <div className="mt-5">
                       <span className="mx-auto max-w-xl">
-                        <h1 className="text-sm text-core-green-100">
+                        <h1 className="text-base text-core-green-100 font-semibold">
                           StoxTicker
                         </h1>
                         <h3 className="text-xs text-core-green-600">
                           Stock Market Analysis App
                         </h3>
 
-                        <h3
+                        <button
                           className={`${
                             open ? "hidden" : ""
-                          }  text-core-green-600 text-xs mt-6`}
+                          }  text-dark-green bg-core-green-300 px-1 py-0.5 mx-auto rounded-md text-xs mt-6`}
                         >
-                          Read more...
-                        </h3>
+                          Read more
+                        </button>
                       </span>
                     </div>
 

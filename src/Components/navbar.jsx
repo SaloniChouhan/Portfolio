@@ -30,7 +30,7 @@ const NavBar = () => {
             {/* <div className="text-lg font-sans font-bold md:py-0 py-4 text-core-green bg-darkest-green">
               Logo
             </div> */}
-            <Popover.Button class="outline-none">
+            <Popover.Button className="outline-none">
               <span className="inline-block ">
                 <h2 className=" text-sm font-mono">Menu</h2>
               </span>
@@ -39,7 +39,7 @@ const NavBar = () => {
                   className=" h-5 w-5 font-medium pl-1 inline-block "
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  stroke-width="1"
+                  strokeWidth="1"
                 />
               </span>
             </Popover.Button>
@@ -60,7 +60,7 @@ const NavBar = () => {
                       Menu
                     </h6>
                     <Popover.Button
-                      class="inline-block"
+                      className="inline-block"
                       aria-label="Close menu"
                       type="button"
                       data-headlessui-state="open"
