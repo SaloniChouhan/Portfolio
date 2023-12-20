@@ -26,11 +26,11 @@ const Work = () => {
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-100 hover:bg-core-green-900/40 rounded-lg ">
-                    <span className="text-md sm:text-md md:text-base lg:text-lg font-medium">
+                    <span className="text-md sm:text-md md:text-base lg:text-lg font-normal font-mono">
                       Software Engineer{" "}
                       <span className="text-core-green-600">@Capgemini</span>
                     </span>
-                    <span className="flex justify-end text-md sm:text-md md:text-base lg:text-lg font-medium">
+                    <span className="flex justify-end text-md sm:text-md md:text-base lg:text-lg font-normal font-mono ">
                       August 2022 - Present
                       <ChevronUpIcon
                         className={`${
@@ -54,40 +54,40 @@ const Work = () => {
                           Mumbai, India
                         </p>
                       </span>
-                      <ul className="list-disc px-5 py-2 mx-1  text-core-green-100">
+                      <ul className="list-disc px-5 py-2 mx-1  text-core-green-100 font-mono">
                         <li className="px-4 py-2 space-x-1">
-                          <p className="text-core-green-100 text-left text-sm sm:text-sm md:text-md lg:text-base font-normal">
+                          <p className="text-core-green-100 text-left text-sm sm:text-sm md:text-md lg:text-base font-light">
                             Collaborated with cross-functional teams, including
                             UI/UX team, QA team, to ensure seamless integration
                             of requested services.
                           </p>
                         </li>
                         <li className="px-4 pb-1  space-x-1">
-                          <p className="text-core-green-100 text-left text-sm sm:text-sm md:text-md lg:text-base font-normal">
+                          <p className="text-core-green-100 text-left text-sm sm:text-sm md:text-md lg:text-base font-light">
                             Participated in agile/scrum methodologies,
                             contributing to sprint planning, daily stand-ups,
                             and retrospectives.
                           </p>
                         </li>
                       </ul>
-                      <ul className="flex flex-wrap mt-4 mb-4 text-base font-light justify-start  gap-1 align-left">
+                      <ul className="flex flex-wrap mt-4 mb-4 text-base font-light font-serif justify-start  gap-1 align-left">
                         <li>
-                          <p className="flex text-core-green-200/70 mx-auto font-serif text-xs sm:text-xs md:text-sm px-3  ">
+                          <p className="flex text-core-green-200/70 mx-auto  text-xs sm:text-xs md:text-sm px-3  ">
                             HTML5
                           </p>
                         </li>
                         <li>
-                          <p className="flex text-core-green-200/70 text-xs sm:text-xs md:text-sm mx-auto font-serif px-3 ">
+                          <p className="flex text-core-green-200/70 text-xs sm:text-xs md:text-sm mx-auto  px-3 ">
                             CSS3
                           </p>
                         </li>
                         <li>
-                          <p className="flex text-core-green-200/70 mx-auto text-xs sm:text-xs md:text-sm font-serif px-3 ">
+                          <p className="flex text-core-green-200/70 mx-auto text-xs sm:text-xs md:text-sm  px-3 ">
                             ReactJS
                           </p>
                         </li>
                         <li>
-                          <p className="flex text-core-green-200/70 mx-auto text-xs sm:text-xs md:text-sm font-serif px-3">
+                          <p className="flex text-core-green-200/70 mx-auto text-xs sm:text-xs md:text-sm  px-3">
                             TailwindCSS
                           </p>
                         </li>
@@ -104,11 +104,11 @@ const Work = () => {
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-100 hover:bg-core-green-900/40 rounded-lg">
-                    <span className="text-md sm:text-md md:text-base lg:text-lg font-medium">
+                    <span className="text-md sm:text-md md:text-base lg:text-lg font-normal font-mono">
                       Java Trainee Intern{" "}
                       <span className="text-core-green-600">@Amstech Inc.</span>
                     </span>
-                    <span className="flex justify-end text-md sm:text-md md:text-base lg:text-lg font-medium">
+                    <span className="flex justify-end text-md sm:text-md md:text-base lg:text-lg font-normal font-mono">
                       October - October 2019
                       <ChevronUpIcon
                         className={`${
@@ -132,9 +132,9 @@ const Work = () => {
                           Indore, India
                         </p>
                       </span>
-                      <ul className="list-disc px-5 py-2 mx-1  font-light text-core-green-100">
+                      <ul className="list-disc px-5 py-2 mx-1 font-mono font-light text-core-green-100">
                         <li className="px-4 py-2 space-x-1">
-                          <p className="text-core-green-100 text-left text-sm sm:text-sm md:text-md lg:text-base font-normal">
+                          <p className="text-core-green-100 text-left text-sm sm:text-sm md:text-md lg:text-base ">
                             Applied theoretical concepts from Java programming
                             coursework to real-world scenarios, showcasing a
                             excellent command of Java fundamentals and best
@@ -142,21 +142,21 @@ const Work = () => {
                           </p>
                         </li>
                         <li className="px-4 pb-1  space-x-1">
-                          <p className="text-core-green-100 text-left text-sm sm:text-sm md:text-md lg:text-base font-normal">
+                          <p className="text-core-green-100 text-left text-sm sm:text-sm md:text-md lg:text-base ">
                             Developed and maintained documentation for Java
                             code, ensuring comprehensive understanding and ease
                             of future updates.
                           </p>
                         </li>
                       </ul>
-                      <ul className="flex flex-wrap mt-4 mb-4 text-base font-light justify-start  gap-1 align-left">
+                      <ul className="flex flex-wrap mt-4 mb-4 text-base font-light justify-start font-serif gap-1 align-left">
                         <li>
-                          <p className="flex text-core-green-200/70 mx-auto font-serif text-xs sm:text-xs md:text-sm px-3  ">
+                          <p className="flex text-core-green-200/70 mx-auto  text-xs sm:text-xs md:text-sm px-3  ">
                             Java
                           </p>
                         </li>
                         <li>
-                          <p className="flex text-core-green-200/70 text-xs sm:text-xs md:text-sm mx-auto font-serif px-3 ">
+                          <p className="flex text-core-green-200/70 text-xs sm:text-xs md:text-sm mx-auto  px-3 ">
                             Git
                           </p>
                         </li>
