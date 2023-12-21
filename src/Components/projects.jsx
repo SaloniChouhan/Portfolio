@@ -13,8 +13,9 @@ const Projects = () => {
         <p className="text-center lg:text-5xl sm:text-4xl md:text-4xl text-3xl mx-auto font-mono font-extrabold text-dark-green max-w-4xl">
           Explore My Creations
         </p>
-        <div className="mx-auto w-full py-12">
-          <div className="mx-auto w-full p-2">
+
+        <div className="mx-auto flex flex-col sm:gap-5 lg:flex-row sm:justify-center  max-w-6xl  ">
+          <div className="sm:shrink-0">
             <Projectcard
               heading="OneDesk"
               subheading="Query Resolution platform"
@@ -30,6 +31,8 @@ const Projects = () => {
               li4="MySQL"
               linktoproj="https://github.com/SaloniChouhan/OneDesk"
             />
+          </div>
+          <div className="sm:shrink-0">
             <Projectcard
               heading="StoxTicker"
               subheading="Stock Market Analysis App"
@@ -47,6 +50,7 @@ const Projects = () => {
             />
           </div>
         </div>
+
         <br />
         <br />
       </section>

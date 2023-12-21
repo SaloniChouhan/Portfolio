@@ -19,23 +19,20 @@ const Work = () => {
 
         <div className="mx-auto py-12 w-full">
           <div className="mx-auto w-full max-w-3xl  p-2">
-            <Disclosure
-              as="div"
-              className=" ring-1 ring-core-green-900 divide-y divide-core-green-900/80 rounded-lg "
-            >
+            <Disclosure as="div" className="bg-core-green-900/20 rounded-lg ">
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-100 hover:bg-core-green-900/40 rounded-lg ">
-                    <span className="text-md sm:text-md md:text-base lg:text-lg font-normal font-mono">
+                  <Disclosure.Button className="flex w-full justify-between   px-4 py-2 text-left text-sm font-medium text-core-green-100 md:hover:bg-core-green-900/40 lg:hover:bg-core-green-900/40  rounded-lg ">
+                    <span className="text-md sm:text-md md:text-base lg:text-base font-normal font-mono">
                       Software Engineer{" "}
                       <span className="text-core-green-600">@Capgemini</span>
                     </span>
-                    <span className="flex justify-end text-md sm:text-md md:text-base lg:text-lg font-normal font-mono ">
+                    <span className="flex justify-end text-md sm:text-md md:text-base lg:text-base font-normal font-mono ">
                       August 2022 - Present
                       <ChevronUpIcon
                         className={`${
                           open ? "rotate-180 transform" : ""
-                        } h-5 w-5 text-core-green-600 mx-1`}
+                        } h-5 w-5 text-core-green-600  mx-1`}
                       />
                     </span>
                   </Disclosure.Button>
@@ -99,16 +96,16 @@ const Work = () => {
             </Disclosure>
             <Disclosure
               as="div"
-              className="mt-4  ring-1 ring-core-green-900 divide-y divide-core-green-900/80 rounded-lg focus:scroll-auto"
+              className="mt-4 bg-core-green-900/20 rounded-lg focus:scroll-auto"
             >
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="flex w-full justify-between  bg-darkest-green px-4 py-2 text-left text-sm font-medium text-core-green-100 hover:bg-core-green-900/40 rounded-lg">
-                    <span className="text-md sm:text-md md:text-base lg:text-lg font-normal font-mono">
+                  <Disclosure.Button className="flex w-full justify-between px-4 py-2 text-left text-sm font-medium text-core-green-100 md:hover:bg-core-green-900/40 lg:hover:bg-core-green-900/40 rounded-lg">
+                    <span className="text-md sm:text-md md:text-base lg:text-base font-normal font-mono">
                       Java Trainee Intern{" "}
                       <span className="text-core-green-600">@Amstech Inc.</span>
                     </span>
-                    <span className="flex justify-end text-md sm:text-md md:text-base lg:text-lg font-normal font-mono">
+                    <span className="flex justify-end text-md sm:text-md md:text-base lg:text-base font-normal font-mono">
                       October - October 2019
                       <ChevronUpIcon
                         className={`${
