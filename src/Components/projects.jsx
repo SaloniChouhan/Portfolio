@@ -14,7 +14,7 @@ const Projects = () => {
           Explore My Creations
         </p>
 
-        <div className="mx-auto flex flex-col sm:gap-5 lg:flex-row sm:justify-center  max-w-6xl  ">
+        <div className="mx-auto flex flex-col sm:gap-5 lg:flex-row sm:justify-center  max-w-6xl pt-10 ">
           <div className="sm:shrink-0">
             <Projectcard
               heading="OneDesk"
