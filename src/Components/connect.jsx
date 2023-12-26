@@ -7,10 +7,10 @@ const Connect = () => {
         id="connect"
       >
         <div className="mx-auto">
-          <h1 className="text-center text-8xl text-core-green-600 font-mono font-extrabold bg-gradient-to-b from-core-green-600 to-darkest-green text-opacity-5 opacity-10 bg-clip-text z-0 mx-auto ">
+          <h1 className="text-center text-[87px] text-core-green-600 font-mono font-extrabold bg-gradient-to-b from-core-green-600 to-darkest-green text-opacity-5 opacity-10 bg-clip-text z-0 mx-auto ">
             Contact
           </h1>
-          <div className="z-10 max-w-[290px] text-center relative -top-10 mx-auto">
+          <div className="z-10 max-w-[290px] text-center relative -top-16 mx-auto">
             <p className="text-core-green-300 text-[10px]">
               Have a question, suggestion, or just want to connect? I{"'"}d love
               to hear from you! I{"'"}m eager to engage with you and explore how
