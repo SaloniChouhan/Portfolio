@@ -3,6 +3,7 @@ import Hero from "./hero";
 import Techstack from "./techstack";
 import Work from "./work";
 import Projects from "./projects";
+import Connect from "./connect";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Techstack />
       <Work />
       <Projects />
+      <Connect />
     </>
   );
 };
