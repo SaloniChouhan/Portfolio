@@ -3,7 +3,7 @@ const Connect = () => {
   return (
     <>
       <div
-        className="flex flex-col justify-center content-center h-screen w-screen"
+        className="flex flex-col justify-center content-center h-96 "
         id="connect"
       >
         <div className="mx-auto">
