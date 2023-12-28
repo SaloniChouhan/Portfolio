@@ -7,7 +7,10 @@ import Resume from "../assets/Saloni_Chouhan_CV.pdf";
 const NavBar = () => {
   return (
     <>
-      <nav className="container flex pt-6 px-6 top-0 mt-2 sm:px-6 md:px-10 mx-auto items-center absolute sm:relative bg-darkest-green lg:max-w-7xl">
+      <nav
+        id="home"
+        className="container flex pt-6 px-6 top-0 mt-2 sm:px-6 md:px-10 mx-auto items-center absolute sm:relative bg-darkest-green lg:max-w-7xl"
+      >
         <div className=" flex mx-auto items-center justify-between  w-full  ">
           <h1 className="font-serif text-base md:text-lg lg:text-xl font-medium  text-core-green-200">
             <span className="float-left">

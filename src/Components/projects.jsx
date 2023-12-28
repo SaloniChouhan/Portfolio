@@ -13,8 +13,11 @@ const Projects = () => {
         <p className="text-center lg:text-5xl sm:text-4xl md:text-4xl text-3xl mx-auto font-mono font-extrabold text-dark-green max-w-4xl">
           Explore My Creations
         </p>
+        <p className="pt-5 text-center text-dark-green font-mono font-medium lg:text-lg sm:text-sm md:text-sm text-xs">
+          My Journey in Project Development
+        </p>
 
-        <div className="mx-auto flex flex-col sm:gap-5 lg:flex-row sm:justify-center  max-w-6xl pt-10 ">
+        <div className="mx-auto flex flex-col sm:gap-5 lg:flex-row sm:justify-center  max-w-6xl pt-6">
           <div className="sm:shrink-0">
             <Projectcard
               heading="OneDesk"
