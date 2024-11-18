@@ -54,38 +54,44 @@ const Work = () => {
                       <ul className="list-disc px-5 py-2 mx-1  text-core-green-100 font-mono">
                         <li className="px-4 py-2 space-x-1">
                           <p className="text-core-green-100 text-left text-sm sm:text-sm md:text-md lg:text-base font-light">
-                            Collaborated with cross-functional teams, including
-                            UI/UX team, QA team, to ensure seamless integration
-                            of requested services.
+                            Collaborated with senior ABAP developers and
+                            functional consultants to understand business
+                            requirements and technical specifications for SAP
+                            projects.
                           </p>
                         </li>
                         <li className="px-4 pb-1  space-x-1">
                           <p className="text-core-green-100 text-left text-sm sm:text-sm md:text-md lg:text-base font-light">
-                            Participated in agile/scrum methodologies,
-                            contributing to sprint planning, daily stand-ups,
-                            and retrospectives.
+                            Assisted in the design, development, and testing of
+                            ABAP programs, reports, SAP Scripts, Adobeforms, and
+                            enhancements to support various SAP modules.
                           </p>
                         </li>
                       </ul>
                       <ul className="flex flex-wrap mt-4 mb-4 text-base font-light font-serif justify-start  gap-1 align-left">
                         <li>
                           <p className="flex text-core-green-200/70 mx-auto  text-xs sm:text-xs md:text-sm px-3  ">
-                            HTML5
+                            SAP ABAP
                           </p>
                         </li>
                         <li>
                           <p className="flex text-core-green-200/70 text-xs sm:text-xs md:text-sm mx-auto  px-3 ">
-                            CSS3
+                            SAP Scripts
                           </p>
                         </li>
                         <li>
                           <p className="flex text-core-green-200/70 mx-auto text-xs sm:text-xs md:text-sm  px-3 ">
-                            ReactJS
+                            SAP Reports
                           </p>
                         </li>
                         <li>
                           <p className="flex text-core-green-200/70 mx-auto text-xs sm:text-xs md:text-sm  px-3">
-                            TailwindCSS
+                            SAP SmartForms
+                          </p>
+                        </li>
+                        <li>
+                          <p className="flex text-core-green-200/70 mx-auto text-xs sm:text-xs md:text-sm  px-3">
+                            DDIC
                           </p>
                         </li>
                       </ul>
